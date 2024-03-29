@@ -1,4 +1,5 @@
 # reference code: https://github.com/huggingface/peft/blob/main/README.md
+# PEFT Version: 0.5.0
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from peft import LoraConfig, TaskType, get_peft_model,AutoPeftModelForCausalLM
 

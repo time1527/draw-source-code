@@ -1,4 +1,5 @@
 # reference code: https://github.com/zyds/transformers-code/tree/master/01-Getting%20Started/02-pipeline
+# transformers Version: 4.38.2
 from transformers import pipeline
 def run(prompt):
     pipe = pipeline("text-classification", model="uer/roberta-base-finetuned-dianping-chinese",device=0)
